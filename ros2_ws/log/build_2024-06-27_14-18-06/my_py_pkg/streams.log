@@ -1,0 +1,64 @@
+[2.136s] Invoking command in '/home/celestino/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/celestino/ros2_ws/build/my_py_pkg/build install --record /home/celestino/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[3.017s] running egg_info
+[3.018s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.019s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.019s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.020s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.020s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.024s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.026s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.026s] running build
+[3.026s] running build_py
+[3.028s] copying my_py_pkg/publisher_2.py -> /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.029s] copying my_py_pkg/subscriber_1.py -> /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.029s] copying my_py_pkg/publisher_1.py -> /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.030s] running install
+[3.031s] running install_lib
+[3.033s] copying /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/publisher_2.py -> /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.034s] copying /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/subscriber_1.py -> /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.035s] copying /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/publisher_1.py -> /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.040s] byte-compiling /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/publisher_2.py to publisher_2.cpython-310.pyc
+[3.041s] byte-compiling /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/subscriber_1.py to subscriber_1.cpython-310.pyc
+[3.042s] byte-compiling /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/publisher_1.py to publisher_1.cpython-310.pyc
+[3.043s] running install_data
+[3.043s] running install_egg_info
+[3.050s] removing '/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.050s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.052s] running install_scripts
+[3.126s] Installing add_two_ints_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.127s] Installing add_two_ints_client_no_oop script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.127s] Installing add_two_ints_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.127s] Installing batgirl script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.128s] Installing batman script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.128s] Installing batman_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.128s] Installing batman_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.129s] Installing car script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.129s] Installing facebook_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.129s] Installing facebook_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.130s] Installing google_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.130s] Installing google_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.130s] Installing mexico_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.131s] Installing mexico_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.131s] Installing microsoft_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.131s] Installing microsoft_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.132s] Installing netflix_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.132s] Installing netflix_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.132s] Installing night_wing script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.133s] Installing number_counter script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.133s] Installing number_publisher script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.133s] Installing nyu_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.134s] Installing nyu_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.134s] Installing publisher_1 script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.134s] Installing publisher_2 script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.135s] Installing py_node script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.135s] Installing radio_station script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.135s] Installing robin script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.135s] Installing robot_news_station script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.136s] Installing satelite script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.136s] Installing smartphone script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.136s] Installing subscriber_1 script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.136s] Installing texas_client script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.137s] Installing texas_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.137s] Installing web_server script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.138s] writing list of installed files to '/home/celestino/ros2_ws/build/my_py_pkg/install.log'
+[3.180s] Invoked command in '/home/celestino/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/celestino/ros2_ws/build/my_py_pkg/build install --record /home/celestino/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

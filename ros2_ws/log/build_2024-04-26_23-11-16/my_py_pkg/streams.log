@@ -1,0 +1,24 @@
+[6.934s] Invoking command in '/home/celestino/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/celestino/ros2_ws/build/my_py_pkg/build install --record /home/celestino/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[9.476s] running egg_info
+[9.481s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[9.532s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[9.534s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[9.535s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[9.535s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[9.544s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[9.558s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[9.559s] running build
+[9.559s] running build_py
+[9.560s] copying my_py_pkg/my_first_node.py -> /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[9.562s] running install
+[9.563s] running install_lib
+[9.567s] copying /home/celestino/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[9.579s] byte-compiling /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[9.581s] running install_data
+[9.590s] running install_egg_info
+[9.607s] removing '/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[9.609s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[9.630s] running install_scripts
+[9.940s] Installing py_node script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.941s] writing list of installed files to '/home/celestino/ros2_ws/build/my_py_pkg/install.log'
+[10.056s] Invoked command in '/home/celestino/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/celestino/ros2_ws/build/my_py_pkg/build install --record /home/celestino/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[2.584s] Invoking command in '/home/celestino/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/celestino/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[3.507s] running develop
+[3.508s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.508s]   warnings.warn(
+[4.585s] running egg_info
+[4.585s] writing my_py_pkg.egg-info/PKG-INFO
+[4.586s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[4.586s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[4.587s] writing requirements to my_py_pkg.egg-info/requires.txt
+[4.587s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[4.591s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[4.640s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[4.654s] running build_ext
+[4.655s] Creating /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[4.658s] Installing py_node script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.658s] Installing robot_news_station script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.659s] 
+[4.659s] Installed /home/celestino/ros2_ws/build/my_py_pkg
+[4.660s] running symlink_data
+[4.712s] Invoked command in '/home/celestino/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/celestino/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

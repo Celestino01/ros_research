@@ -1,0 +1,21 @@
+[3.126s] Invoking command in '/home/celestino/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/celestino/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[4.129s] running develop
+[4.145s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.145s]   warnings.warn(
+[5.540s] running egg_info
+[5.541s] writing my_py_pkg.egg-info/PKG-INFO
+[5.541s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[5.541s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[5.542s] writing requirements to my_py_pkg.egg-info/requires.txt
+[5.542s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[5.546s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[5.599s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[5.610s] running build_ext
+[5.611s] Creating /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[5.613s] Installing py_node script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.614s] Installing robot_news_station script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.614s] Installing smartphone script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.614s] 
+[5.615s] Installed /home/celestino/ros2_ws/build/my_py_pkg
+[5.615s] running symlink_data
+[5.715s] Invoked command in '/home/celestino/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/celestino/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

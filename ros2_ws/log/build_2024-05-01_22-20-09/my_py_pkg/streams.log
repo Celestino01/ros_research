@@ -1,0 +1,22 @@
+[2.745s] Invoking command in '/home/celestino/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/celestino/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[3.708s] running develop
+[3.756s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.756s]   warnings.warn(
+[5.147s] running egg_info
+[5.148s] writing my_py_pkg.egg-info/PKG-INFO
+[5.171s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[5.172s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[5.172s] writing requirements to my_py_pkg.egg-info/requires.txt
+[5.173s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[5.176s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[5.190s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[5.198s] running build_ext
+[5.199s] Creating /home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[5.200s] Installing py_node script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.201s] Installing robot_news_station script to /home/celestino/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.201s] 
+[5.201s] Installed /home/celestino/ros2_ws/build/my_py_pkg
+[5.202s] running symlink_data
+[5.202s] symbolically linking /home/celestino/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/celestino/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[5.202s] symbolically linking /home/celestino/ros2_ws/build/my_py_pkg/package.xml -> /home/celestino/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[5.252s] Invoked command in '/home/celestino/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/celestino/ros2_ws/build/my_py_pkg/prefix_override:/home/celestino/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/celestino/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

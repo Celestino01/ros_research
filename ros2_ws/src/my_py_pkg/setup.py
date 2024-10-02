@@ -1,0 +1,63 @@
+from setuptools import find_packages, setup
+
+package_name = 'my_py_pkg'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=find_packages(exclude=['test']),
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='celestino',
+    maintainer_email='Celestino.Martinez01@gmail.com',
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            "py_node = my_py_pkg.my_first_node:main",
+            "robot_news_station = my_py_pkg.robot_news_station:main",
+            "smartphone = my_py_pkg.smartphone:main",
+            "number_publisher = my_py_pkg.number_publisher:main",
+            "number_counter = my_py_pkg.number_counter:main",
+            "batman = my_py_pkg.batman:main",
+            "robin = my_py_pkg.robin:main",
+            "batgirl = my_py_pkg.batgirl:main",
+            "night_wing = my_py_pkg.night_wing:main",
+            "radio_station = my_py_pkg.radio_station:main",
+            "car = my_py_pkg.car:main",
+            "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
+            "add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:main",
+            "add_two_ints_client = my_py_pkg.add_two_ints_client:main",
+            "web_server = my_py_pkg.web_server:main",
+            "satelite = my_py_pkg.satelite:main",
+            "facebook_server = my_py_pkg.facebook_server:main",
+            "facebook_client = my_py_pkg.facebook_client:main",
+            "google_server = my_py_pkg.google_server:main",
+            "google_client = my_py_pkg.google_client:main",
+            "microsoft_server = my_py_pkg.microsoft_server:main",
+            "microsoft_client = my_py_pkg.microsoft_client:main",
+            "netflix_server = my_py_pkg.netflix_server:main",
+            "netflix_client = my_py_pkg.netflix_client:main",
+            "nyu_server = my_py_pkg.nyu_server:main",
+            "nyu_client = my_py_pkg.nyu_client:main",
+            "mexico_server = my_py_pkg.mexico_server:main",
+            "mexico_client = my_py_pkg.mexico_client:main",
+            "texas_server = my_py_pkg.texas_server:main",
+            "texas_client = my_py_pkg.texas_client:main",
+            "batman_server = my_py_pkg.batman_server:main",
+            "batman_client = my_py_pkg.batman_client:main",
+            "subscriber_1 = my_py_pkg.subscriber_1:main",
+            "publisher_2 = my_py_pkg.publisher_2:main",
+            "publisher_1 = my_py_pkg.publisher_1:main",
+            "pub_1= my_py_pkg.pub_1:main",
+            "sub_1= my_py_pkg.sub_1:main"
+
+        ],
+    },
+)
